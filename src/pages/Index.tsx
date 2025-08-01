@@ -255,9 +255,14 @@ const Index = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in"
               style={{ animationDelay: "0.6s" }}
             >
-              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg rounded-full shadow-lg hover:shadow-xl transition-all">
-                <Download className="mr-2 h-5 w-5" />
-                Download Resume
+              <Button
+                asChild
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
+              >
+                <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <Download className="mr-2 h-5 w-5" />
+                  View Resume
+                </a>
               </Button>
             </div>
           </div>
