@@ -43,7 +43,13 @@ const Index = () => {
       title: "ABFRL Super App",
       description:
         "Leading development of unified multi-brand e-commerce platform integrating 7 brands into single React Native application. Designed scalable architecture with dynamic microsites, unified cart/checkout flows, and CodePush OTA updates.",
-      tech: ["React Native", "TypeScript", "Redux Toolkit", "CodePush", "Justpay"],
+      tech: [
+        "React Native",
+        "TypeScript",
+        "Redux Toolkit",
+        "CodePush",
+        "Justpay",
+      ],
       github: "",
       demo: "",
       image:
@@ -57,8 +63,7 @@ const Index = () => {
       tech: ["Next.js", "TypeScript", "Firebase", "Razorpay", "SCSS"],
       github: "",
       demo: "",
-      image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop",
+      image: "/herbaurora.jpg",
     },
   ];
 
@@ -74,26 +79,30 @@ const Index = () => {
     { name: "Tailwind", icon: "🎯", category: "Frontend" },
     { name: "Redux Toolkit", icon: "🔄", category: "Frontend" },
     { name: "Zustand", icon: "🐻", category: "Frontend" },
-    
+
     // Mobile Development
     { name: "React Native", icon: "📱", category: "Mobile Development" },
     { name: "iOS Development", icon: "🍎", category: "Mobile Development" },
     { name: "Android Development", icon: "🤖", category: "Mobile Development" },
-    { name: "Mobile Application Development", icon: "📲", category: "Mobile Development" },
-    
+    {
+      name: "Mobile Application Development",
+      icon: "📲",
+      category: "Mobile Development",
+    },
+
     // Backend & APIs
     { name: "Node.js", icon: "🟢", category: "Backend & APIs" },
     { name: "Express.js", icon: "🚀", category: "Backend & APIs" },
     { name: "MongoDB", icon: "🍃", category: "Backend & APIs" },
     { name: "Firebase", icon: "🔥", category: "Backend & APIs" },
-    
+
     // Analytics
     { name: "CleverTap", icon: "📊", category: "Analytics" },
     { name: "Adobe", icon: "🔴", category: "Analytics" },
     { name: "Google Analytics", icon: "📈", category: "Analytics" },
     { name: "AppsFlyer", icon: "✈️", category: "Analytics" },
     { name: "Adjust", icon: "⚙️", category: "Analytics" },
-    
+
     // Tools & Others
     { name: "Git", icon: "📝", category: "Tools & Others" },
     { name: "GitHub", icon: "🐙", category: "Tools & Others" },
@@ -249,13 +258,6 @@ const Index = () => {
               <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg rounded-full shadow-lg hover:shadow-xl transition-all">
                 <Download className="mr-2 h-5 w-5" />
                 Download Resume
-              </Button>
-              <Button
-                variant="outline"
-                className="border-green-600 text-green-600 hover:bg-green-50 px-8 py-3 text-lg rounded-full"
-              >
-                <ExternalLink className="mr-2 h-5 w-5" />
-                View Projects
               </Button>
             </div>
           </div>
