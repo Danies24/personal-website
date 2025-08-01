@@ -247,7 +247,7 @@ const Index = () => {
               style={{ animationDelay: "0.4s" }}
             >
               I build smooth, high-performance mobile apps with React Native,
-              combining 3+ years of experience with cutting-edge technologies to
+              combining 4+ years of experience with cutting-edge technologies to
               deliver exceptional user experiences.
             </p>
 
@@ -288,11 +288,11 @@ const Index = () => {
                 <MapPin className="h-5 w-5 text-green-600 mr-2" />
                 <span className="text-gray-600">Based in India</span>
                 <Calendar className="h-5 w-5 text-green-600 ml-6 mr-2" />
-                <span className="text-gray-600">3+ Years Experience</span>
+                <span className="text-gray-600">4+ Years Experience</span>
               </div>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                I'm a passionate React Native developer with over 3 years of
+                I'm a passionate React Native developer with over 4 years of
                 experience building high-quality mobile applications. Currently
                 working at <strong className="text-green-600">ABFRL</strong>, I
                 specialize in creating seamless cross-platform mobile
@@ -373,17 +373,6 @@ const Index = () => {
                       </Badge>
                     ))}
                   </div>
-
-                  {/* <div className="flex gap-3">
-                    <Button size="sm" variant="outline" className="flex-1 border-green-600 text-green-600 hover:bg-green-50">
-                      <Github className="h-4 w-4 mr-2" />
-                      Code
-                    </Button>
-                    <Button size="sm" className="flex-1 bg-green-600 hover:bg-green-700">
-                      <Play className="h-4 w-4 mr-2" />
-                      Demo
-                    </Button>
-                  </div> */}
                 </CardContent>
               </Card>
             ))}
