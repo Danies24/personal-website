@@ -29,52 +29,83 @@ const Index = () => {
   const projects = [
     {
       id: 1,
-      title: "Herb Aurora App",
+      title: "ABFRL Brand Apps",
       description:
-        "A comprehensive herbal medicine discovery app with detailed plant information, health benefits, and personalized recommendations.",
-      tech: ["React Native", "Redux", "Firebase", "TypeScript"],
-      github: "https://github.com/daniessdm/herb-aurora",
-      demo: "https://example.com/herb-aurora-demo",
+        "Developed and maintained brand-specific e-commerce mobile applications for Louis Philippe, Van Heusen, and Peter England (6 apps on Play Store and App Store). Managed app hosting, compliance, unit testing, and third-party SDK integrations.",
+      tech: ["React Native", "Redux", "Firebase", "Analytics SDKs", "Jest"],
+      github: "",
+      demo: "",
       image:
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=250&fit=crop",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=250&fit=crop",
     },
     {
       id: 2,
-      title: "Couple Game App",
+      title: "ABFRL Super App",
       description:
-        "Interactive mobile game for couples with fun challenges, relationship building activities, and progress tracking.",
-      tech: ["React Native", "AsyncStorage", "Animations", "JavaScript"],
-      github: "https://github.com/daniessdm/couple-game",
-      demo: "https://example.com/couple-game-demo",
+        "Leading development of unified multi-brand e-commerce platform integrating 7 brands into single React Native application. Designed scalable architecture with dynamic microsites, unified cart/checkout flows, and CodePush OTA updates.",
+      tech: ["React Native", "TypeScript", "Redux Toolkit", "CodePush", "Justpay"],
+      github: "",
+      demo: "",
       image:
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop",
+        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=250&fit=crop",
     },
     {
       id: 3,
-      title: "Firebase Chat App",
+      title: "Herb Aurora",
       description:
-        "Real-time messaging application with user authentication, group chats, media sharing, and push notifications.",
-      tech: ["React Native", "Firebase", "Real-time DB", "Push Notifications"],
-      github: "https://github.com/daniessdm/firebase-chat",
-      demo: "https://example.com/chat-app-demo",
+        "Full-stack e-commerce platform for 100% natural Tamil herbal skincare products. Features OTP authentication, product catalog, cart management, Razorpay integration, order tracking, and mobile-first responsive design.",
+      tech: ["Next.js", "TypeScript", "Firebase", "Razorpay", "SCSS"],
+      github: "",
+      demo: "",
       image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=250&fit=crop",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop",
     },
   ];
 
   const skills = [
-    { name: "JavaScript", icon: "🟨", category: "Language" },
-    { name: "TypeScript", icon: "🔷", category: "Language" },
-    { name: "React Native", icon: "⚛️", category: "Framework" },
-    { name: "Redux", icon: "🔄", category: "State Management" },
-    { name: "Firebase", icon: "🔥", category: "Backend" },
-    { name: "Node.js", icon: "🟢", category: "Backend" },
-    { name: "MongoDB", icon: "🍃", category: "Database" },
-    { name: "Git", icon: "📝", category: "Tools" },
-    { name: "Figma", icon: "🎨", category: "Design" },
-    { name: "REST APIs", icon: "🌐", category: "Integration" },
-    { name: "AsyncStorage", icon: "💾", category: "Storage" },
-    { name: "Push Notifications", icon: "🔔", category: "Features" },
+    // Frontend
+    { name: "HTML", icon: "🌐", category: "Frontend" },
+    { name: "CSS", icon: "🎨", category: "Frontend" },
+    { name: "JavaScript", icon: "🟨", category: "Frontend" },
+    { name: "TypeScript", icon: "🔷", category: "Frontend" },
+    { name: "React.js", icon: "⚛️", category: "Frontend" },
+    { name: "Next.js", icon: "▲", category: "Frontend" },
+    { name: "SCSS", icon: "💅", category: "Frontend" },
+    { name: "Tailwind", icon: "🎯", category: "Frontend" },
+    { name: "Redux Toolkit", icon: "🔄", category: "Frontend" },
+    { name: "Zustand", icon: "🐻", category: "Frontend" },
+    
+    // Mobile Development
+    { name: "React Native", icon: "📱", category: "Mobile Development" },
+    { name: "iOS Development", icon: "🍎", category: "Mobile Development" },
+    { name: "Android Development", icon: "🤖", category: "Mobile Development" },
+    { name: "Mobile Application Development", icon: "📲", category: "Mobile Development" },
+    
+    // Backend & APIs
+    { name: "Node.js", icon: "🟢", category: "Backend & APIs" },
+    { name: "Express.js", icon: "🚀", category: "Backend & APIs" },
+    { name: "MongoDB", icon: "🍃", category: "Backend & APIs" },
+    { name: "Firebase", icon: "🔥", category: "Backend & APIs" },
+    
+    // Analytics
+    { name: "CleverTap", icon: "📊", category: "Analytics" },
+    { name: "Adobe", icon: "🔴", category: "Analytics" },
+    { name: "Google Analytics", icon: "📈", category: "Analytics" },
+    { name: "AppsFlyer", icon: "✈️", category: "Analytics" },
+    { name: "Adjust", icon: "⚙️", category: "Analytics" },
+    
+    // Tools & Others
+    { name: "Git", icon: "📝", category: "Tools & Others" },
+    { name: "GitHub", icon: "🐙", category: "Tools & Others" },
+    { name: "GitLab", icon: "🦊", category: "Tools & Others" },
+    { name: "Jest", icon: "🃏", category: "Tools & Others" },
+    { name: "Vite", icon: "⚡", category: "Tools & Others" },
+    { name: "VS Code", icon: "💻", category: "Tools & Others" },
+    { name: "Cursor", icon: "🖱️", category: "Tools & Others" },
+    { name: "Vercel", icon: "▲", category: "Tools & Others" },
+    { name: "Jira", icon: "🎫", category: "Tools & Others" },
+    { name: "Agile Development", icon: "🔄", category: "Tools & Others" },
+    { name: "API Integration", icon: "🔗", category: "Tools & Others" },
   ];
 
   return (
