@@ -239,7 +239,7 @@ const Index = () => {
               className="text-2xl md:text-3xl text-green-600 font-semibold mb-6 animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             >
-              React Native Developer | Full Stack Mobile & Web Engineer
+              React Native | Full Stack javascript Engineer
             </h2>
 
             <p
