@@ -63,43 +63,49 @@ const Index = () => {
   ];
 
   const skills = [
-    // Frontend Development
-    { name: "HTML", icon: "🌐", category: "Frontend Development" },
-    { name: "CSS", icon: "🎨", category: "Frontend Development" },
-    { name: "JavaScript (ES6+)", icon: "🟨", category: "Frontend Development" },
-    { name: "React.js", icon: "⚛️", category: "Frontend Development" },
-    { name: "Next.js", icon: "▲", category: "Frontend Development" },
-    { name: "TypeScript", icon: "🔷", category: "Frontend Development" },
-    { name: "Front-End Development", icon: "💻", category: "Frontend Development" },
+    // Frontend
+    { name: "HTML", icon: "🌐", category: "Frontend" },
+    { name: "CSS", icon: "🎨", category: "Frontend" },
+    { name: "JavaScript", icon: "🟨", category: "Frontend" },
+    { name: "TypeScript", icon: "🔷", category: "Frontend" },
+    { name: "React.js", icon: "⚛️", category: "Frontend" },
+    { name: "Next.js", icon: "▲", category: "Frontend" },
+    { name: "SCSS", icon: "💅", category: "Frontend" },
+    { name: "Tailwind", icon: "🎯", category: "Frontend" },
+    { name: "Redux Toolkit", icon: "🔄", category: "Frontend" },
+    { name: "Zustand", icon: "🐻", category: "Frontend" },
     
     // Mobile Development
     { name: "React Native", icon: "📱", category: "Mobile Development" },
     { name: "iOS Development", icon: "🍎", category: "Mobile Development" },
     { name: "Android Development", icon: "🤖", category: "Mobile Development" },
-    { name: "Expo", icon: "⚫", category: "Mobile Development" },
     { name: "Mobile Application Development", icon: "📲", category: "Mobile Development" },
     
-    // Backend & API
-    { name: "Node.js", icon: "🟢", category: "Backend & API" },
-    { name: "Express.js", icon: "🚀", category: "Backend & API" },
-    { name: "MongoDB", icon: "🍃", category: "Backend & API" },
-    { name: "Firebase", icon: "🔥", category: "Backend & API" },
-    { name: "API Integration", icon: "🔗", category: "Backend & API" },
+    // Backend & APIs
+    { name: "Node.js", icon: "🟢", category: "Backend & APIs" },
+    { name: "Express.js", icon: "🚀", category: "Backend & APIs" },
+    { name: "MongoDB", icon: "🍃", category: "Backend & APIs" },
+    { name: "Firebase", icon: "🔥", category: "Backend & APIs" },
     
-    // UI/UX & Design
-    { name: "Responsive Web Design", icon: "📐", category: "UI/UX & Design" },
-    { name: "Cross-Platform UI", icon: "🎯", category: "UI/UX & Design" },
-    { name: "Component-based Architecture", icon: "🧩", category: "UI/UX & Design" },
-    { name: "Accessibility (a11y)", icon: "♿", category: "UI/UX & Design" },
-    { name: "UI/UX Optimization", icon: "✨", category: "UI/UX & Design" },
+    // Analytics
+    { name: "CleverTap", icon: "📊", category: "Analytics" },
+    { name: "Adobe", icon: "🔴", category: "Analytics" },
+    { name: "Google Analytics", icon: "📈", category: "Analytics" },
+    { name: "AppsFlyer", icon: "✈️", category: "Analytics" },
+    { name: "Adjust", icon: "⚙️", category: "Analytics" },
     
-    // Tools & Workflow
-    { name: "Git", icon: "📝", category: "Tools & Workflow" },
-    { name: "GitHub", icon: "🐙", category: "Tools & Workflow" },
-    { name: "VS Code", icon: "💻", category: "Tools & Workflow" },
-    { name: "Agile Development", icon: "🔄", category: "Tools & Workflow" },
-    { name: "CodePush OTA", icon: "📡", category: "Tools & Workflow" },
-    { name: "Deployment", icon: "🚀", category: "Tools & Workflow" },
+    // Tools & Others
+    { name: "Git", icon: "📝", category: "Tools & Others" },
+    { name: "GitHub", icon: "🐙", category: "Tools & Others" },
+    { name: "GitLab", icon: "🦊", category: "Tools & Others" },
+    { name: "Jest", icon: "🃏", category: "Tools & Others" },
+    { name: "Vite", icon: "⚡", category: "Tools & Others" },
+    { name: "VS Code", icon: "💻", category: "Tools & Others" },
+    { name: "Cursor", icon: "🖱️", category: "Tools & Others" },
+    { name: "Vercel", icon: "▲", category: "Tools & Others" },
+    { name: "Zira", icon: "🎫", category: "Tools & Others" },
+    { name: "Agile Development", icon: "🔄", category: "Tools & Others" },
+    { name: "API Integration", icon: "🔗", category: "Tools & Others" },
   ];
 
   return (
